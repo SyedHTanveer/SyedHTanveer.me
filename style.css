@@ -1,7 +1,7 @@
 body{
-	background-color:#f2f2f2;
-	color:#cccccc;
-	font-family:Arial, Helvetica, sans-serif;
+	background-color:#eee2dc;
+	color:#efe7ce2e;
+	font-family:'Open Sans', sans-serif;;
 	font-size:16px;
 	line-height:1.6em;
 	margin:0;
@@ -11,19 +11,21 @@ body{
         height: 200px;
         width: 200px;
 	position: absolute;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        margin-left: -150px;
-        margin-top: -150px;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-style: solid;
         border-radius: 100px;
+	z-index: 2;
 }
 
 
 .parallax {
         /* The image used */
+	background-size: auto;
         background-image:url('images/showcase.jpg');
         /* Set a specific height */
         height: 500px;
@@ -39,79 +41,56 @@ body{
 	width:80%;
 	margin:auto;
 	overflow:hidden;
+	text-align: center;
 
-}
-
-#main-header{
-	background-color:#595959;
-        text-align: center;
-	color:white;
-        font-family: monospace;
 }
 
 #navbar{
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
-	background-color:#7f7f7f;
+	background-color:#123c69;
 	color:white;
         text-align: center;
-        font-family: monospace;
+        font-family: 'Open Sans', sans-serif;
         z-index: 3;
 }
 
 #navbar ul{
-	padding: 0;
+	text-align: center;
 	list-style: none;
 }
 
 #navbar li{
+	text-align: center;
 	display:inline;
 }
 
 #navbar a{
-	color:#fff;
-	text-decoration: none;
-	font-size:18px;
-	padding-right:15px;
+	color: white;
+	font-size: 20px;
+	font-style: none;
+	padding-right: 5.2%;
 }
 
-
-#showcase h1{
-	color:#fff;
-	font-size:50px;
-	line-height: 1.6em;
-	padding-top:30px;
-        
-}
 
 #main{
-	float:left;
-	width:70%;
-	padding:0 30px;
-	box-sizing: border-box;
-        color:#595959;
-        font-family: monospace;
-
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
 
-#sidebar{
-	float:right;
-	width:30%;
-	background: #333;
-	color:#fff;
-	padding:20px;
-	box-sizing: border-box;
-        font-size: 15px;
-        font-family: monospace;
+#main h1 {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #main-footer{
-	background: #333;
+	background: #123c69;
 	color:#fff;
 	text-align: center;
-	padding:20px;
-	margin-top:40px;
+	padding-top: 5%;
+	margin-top: 10%;
 }
 
 @media(max-width:600px){
