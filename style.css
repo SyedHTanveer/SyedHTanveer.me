@@ -8,25 +8,19 @@ body{
 }
 
 .picture {
-        border-radius: 100px;
         height: 200px;
-        max-width: auto;
-        margin: auto;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
+        width: 200px;
+	position: absolute;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -150px;
+        margin-top: -150px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-style: solid;
-        position: absolute;
+        border-radius: 100px;
 }
 
-.container{
-	width:80%;
-	margin:auto;
-	overflow:hidden;
-
-}
 
 .parallax {
         /* The image used */
@@ -38,6 +32,14 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        position: relative;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
 }
 
 #main-header{
