@@ -22,8 +22,8 @@ body{
 
 .parallax {
         /* The image used */
-	background-size: 100%;
         background-image:url('images/showcase2.jpg');
+	background-color: #c14b45;
         /* Set a specific height */
         height: 500px;
         /* Create the parallax scrolling effect */
@@ -35,7 +35,6 @@ body{
 
 .text-structure {
 	padding-top: 1px;
-	color:
 }
 
 .about {
