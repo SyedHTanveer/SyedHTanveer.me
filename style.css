@@ -12,20 +12,19 @@ body{
         width: 200px;
 	position: absolute;
 	margin: auto;
-	top: 0;
+	top: 50px;
 	bottom: 0;
 	left: 0;
 	right: 0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-style: solid;
         border-radius: 100px;
-	z-index: 2;
+	z-index: 1;
 }
-
 
 .parallax {
         /* The image used */
-	background-size: auto;
+	background-size: 100%;
         background-image:url('images/showcase.jpg');
         /* Set a specific height */
         height: 500px;
@@ -35,6 +34,20 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+}
+
+.about {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.current {
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
 }
 
 .container{
@@ -48,6 +61,7 @@ body{
 #navbar{
         position: -webkit-sticky; /* Safari */
         position: sticky;
+	scroll-behavior: smooth;
         top: 0;
 	background-color:#123c69;
 	color:white;
@@ -74,33 +88,30 @@ body{
 }
 
 
+
 #main{
         color: black;
         font-family: 'Open Sans', sans-serif;
 	text-align: center;
-}
-
-#main h1 {
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
 }
 
-#main-footer{
+:target:before {
+    content: "";
+    display: inline-block;
+    height: 180px;
+    margin: -150px 0 0;
+}
+
+.resumePDF {
+	height: auto;
+	width: auto;
+}
+
+#main-footer {
 	background: #123c69;
 	color:#fff;
 	text-align: center;
 	padding-top: 5%;
 	margin-top: 10%;
-}
-
-@media(max-width:600px){
-	#main{
-		width:100%;
-		float:none;
-	}
-
-	#sidebar{
-		width:100%;
-		float:none;
-	}
 }
