@@ -1,5 +1,5 @@
 body{
-	background-color:#eee2dc;
+	background-color:#fff;
 	color:#efe7ce2e;
 	font-family:'Open Sans', sans-serif;;
 	font-size:16px;
@@ -10,13 +10,11 @@ body{
 .picture {
         height: 200px;
         width: 200px;
-	position: absolute;
-	margin: auto;
-	top: 50px;
-	bottom: 0;
-	left: 0;
-	right: 0;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
         border-style: solid;
         border-radius: 100px;
 	z-index: 1;
@@ -25,7 +23,7 @@ body{
 .parallax {
         /* The image used */
 	background-size: 100%;
-        background-image:url('images/showcase.jpg');
+        background-image:url('images/showcase2.jpg');
         /* Set a specific height */
         height: 500px;
         /* Create the parallax scrolling effect */
@@ -33,19 +31,22 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
+}
+
+.text-structure {
+	padding-top: 1px;
+	color:
 }
 
 .about {
 	text-align: center;
-	padding-top: 50px;
 	font-size: 50px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 }
 .current {
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 }
@@ -62,12 +63,11 @@ body{
         position: -webkit-sticky; /* Safari */
         position: sticky;
 	scroll-behavior: smooth;
-        top: 0;
 	background-color:#123c69;
 	color:white;
         text-align: center;
-        font-family: 'Open Sans', sans-serif;
         z-index: 3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #navbar ul{
@@ -83,8 +83,12 @@ body{
 #navbar a{
 	color: white;
 	font-size: 20px;
-	font-style: none;
-	padding-right: 5.2%;
+	text-decoration: none;
+	letter-spacing: 10px;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 5%;
+	padding-bottom: 2.5%;
 }
 
 
