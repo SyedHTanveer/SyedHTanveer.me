@@ -12,7 +12,6 @@ body{
         width: 200px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: block;
-	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
         border-style: solid;
@@ -23,9 +22,8 @@ body{
 .parallax {
         /* The image used */
         background-image:url('images/showcase2.jpg');
-	background-color: #c14b45;
         /* Set a specific height */
-        height: 500px;
+        height: 550px;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
@@ -33,21 +31,20 @@ body{
         background-size: cover;
 }
 
-.text-structure {
-	padding-top: 1px;
-}
 
 .about {
 	text-align: center;
 	font-size: 50px;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
 }
 .current {
 	text-align: center;
 	padding-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
+	font-size: 16px;
 }
 
 .container{
@@ -64,7 +61,6 @@ body{
 	scroll-behavior: smooth;
 	background-color:#123c69;
 	color:white;
-        text-align: center;
         z-index: 3;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
