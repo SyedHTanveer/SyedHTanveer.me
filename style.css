@@ -19,6 +19,25 @@ body{
 	z-index: 1;
 }
 
+#img {
+	-webkit-box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);
+	-moz-box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);
+	box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.49);
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition: all ease-in-out 500ms;
+	-o-transition:all ease-in-out 500ms;
+	transition: all ease-in-out 500ms;
+
+}
+
+#img:hover {
+	-webkit-box-shadow: -2px 19px 24px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: -2px 19px 24px 0px rgba(0,0,0,0.3);
+	box-shadow: -2px 19px 24px 0px rgba(0,0,0,0.3);
+	transform: translate(0px,-4px);
+}
+
+
 .parallax {
         /* The image used */
         background-image:url('images/showcase2.jpg');
@@ -79,14 +98,12 @@ body{
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
-	letter-spacing: 10px;
+	letter-spacing: 8px;
 	float: right;
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 5%;
 	padding-bottom: 2.5%;
 }
-
-
 
 #main{
         color: black;
@@ -95,22 +112,48 @@ body{
 	text-decoration: none;
 }
 
-:target:before {
-    content: "";
-    display: inline-block;
-    height: 180px;
-    margin: -150px 0 0;
+#about h1 {
+	margin-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 50px;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px grey;
+
 }
 
-.resumePDF {
-	height: auto;
-	width: auto;
+#about p{
+	margin-bottom: 10%;
 }
+
+
+#projects h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 50px;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px grey;
+}
+
+#portfolio h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 50px;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px grey;
+}
+
+
+#portfolio img{
+	display:inline-block;
+
+}
+
 
 #main-footer {
 	background: #123c69;
 	color:#fff;
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 2%;
+	padding-bottom: 5%;
 	margin-top: 10%;
 }
